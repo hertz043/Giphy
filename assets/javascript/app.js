@@ -50,7 +50,7 @@ $("#addState").on("click", function(event) {
 
 $(document).on("click", "button", function() {
     var searchState = $(this).attr("data-state");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchState + "&api_key=wjRQ1zdYFUzNBw8L2eOYGl72kK90rbRf&limit=10&rating=g";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchState + "&api_key=wjRQ1zdYFUzNBw8L2eOYGl72kK90rbRf&limit=10&rating=g";
     // console.log(searchState);
 
     $.ajax({
