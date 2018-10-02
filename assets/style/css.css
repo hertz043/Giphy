@@ -1,0 +1,50 @@
+
+body {
+    background-image: url("../images/ep_naturalblack.png");
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:silver;
+
+}
+
+.header {
+        margin: 0 auto;
+        max-width: 1200px;
+}
+
+#buttonBar {
+    padding: 20px;
+}
+
+
+#addButton {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+input[type=submit] {
+    size: large;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: silver;
+    font-size:125%
+
+}
+
+button[class="searchButton"] {
+    size: large;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: silver;
+    font-size:125%
+}
+
+.gifDiv {
+    float:left;
+    padding:5px;
+}
